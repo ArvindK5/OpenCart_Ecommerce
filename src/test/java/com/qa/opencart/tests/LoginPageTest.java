@@ -22,7 +22,7 @@ public class LoginPageTest extends BaseTest {
 	public void loginPageTitleTest() {
 		String title = loginPage.getLoginPageTitle();
 		System.out.println("The tile of loginPage is " + title);
-		Assert.assertEquals(title, ConstantsUtil.LOGIN_PAGE_TITLE);
+		Assert.assertEquals(title, ConstantsUtil.LOGIN_PAGE_TITLE_NAME);
 	}
     @Description("login page url test")
     @Severity(SeverityLevel.MINOR)

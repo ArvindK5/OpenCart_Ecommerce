@@ -29,7 +29,7 @@ public class LoginPage {
 	//public Page actions(methods)
 	@Step("getting login page title")
 	public String getLoginPageTitle() {
-		return elementUtil.waitForTitle(5, ConstantsUtil.LOGIN_PAGE_TITLE);
+		return elementUtil.waitForTitle(5, ConstantsUtil.LOGIN_PAGE_TITLE_NAME);
 	}
 	
 	@Step("getting login page url")
