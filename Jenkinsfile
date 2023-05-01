@@ -25,6 +25,11 @@ pipeline {
                 echo 'SMOKE TEST'
             }
         }
+        stage('Regression Test') {
+            steps {
+                echo 'REGRESSION TEST'
+            }
+        }
         
         stage('Stage Test') {
             steps {
