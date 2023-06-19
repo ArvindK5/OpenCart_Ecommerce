@@ -43,7 +43,7 @@ public class LoginPage {
 		
 	}
 	
-	@Step("loin with username : {0} and password : {1}")
+	@Step("login with username : {0} and password : {1}")
 	public AccountPage doLogin(String un , String pwd) {
 	elementUtil.doSendKeys(username, un);
 	elementUtil.doSendKeys(password, pwd);
@@ -54,7 +54,7 @@ public class LoginPage {
 	
 	}
 	
-	@Step("loin with username : {0} and password : {1}")
+	@Step("login with username : {0} and password : {1}")
 	public boolean doLoginWithWrongData(String un , String pwd) {
 	elementUtil.doSendKeys(username, un);
 	elementUtil.doSendKeys(password, pwd);
